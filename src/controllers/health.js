@@ -1,7 +1,7 @@
 class HealthController {
   healthStatus(req, res) {
     res.status(200).json({
-      message: "app running",
+      message: "ok",
     });
   }
 }
