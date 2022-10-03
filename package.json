@@ -1,0 +1,19 @@
+{
+  "name": "testing-jenkins-api",
+  "version": "1.0.0",
+  "description": "API an repository to test and learn about Jenkins pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonmrog/testing-jenkins-api.git"
+  },
+  "author": "Simón Murillo Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonmrog/testing-jenkins-api/issues"
+  },
+  "homepage": "https://github.com/simonmrog/testing-jenkins-api#readme"
+}
