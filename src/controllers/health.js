@@ -1,8 +1,9 @@
+const healthService = require("../services/health");
+
 class HealthController {
   healthStatus(req, res) {
-    res.status(200).json({
-      message: "ok",
-    });
+    const healthStatus = healthService.getHealthStatus();
+    res.status(200).json(healthStatus);
   }
 }
 
