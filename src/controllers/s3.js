@@ -1,7 +1,4 @@
-const AWS = require("aws-sdk");
 const s3Service = require("../services/s3");
-
-// const s3Service = new S3Service(AWS);
 
 class S3Controller {
   async createBucket(req, res) {
