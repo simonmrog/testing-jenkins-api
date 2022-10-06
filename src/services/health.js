@@ -1,7 +1,7 @@
 class HealthService {
   getHealthStatus() {
     return {
-      status: "application running",
+      status: "ok",
     };
   }
 }
