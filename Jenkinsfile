@@ -14,6 +14,7 @@ pipeline {
         stage("Build"){
             steps {
                 dir("testing-jenkins-api") {
+                    sh "git checkout develop"
                     sh "npm install"
                 }
             }
